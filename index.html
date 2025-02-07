@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="sticky">
+      <!-- navigation bar -->
+      <nav class="flex-between width-90 margin-auto padding-sm">
+        <p id="logo" class="font-bold">Travel</p>
+        <ul class="flex">
+          <li class="padding-sm">
+            <a href="#discover" class="text-center text-black poppins-light"
+              >Discover</a
+            >
+          </li>
+          <li class="padding-sm">
+            <a href="#pricing" class="text-center text-black poppins-light"
+              >Pricing</a
+            >
+          </li>
+          <li class="padding-sm">
+            <a href="#Feedback" class="text-center text-black poppins-light"
+              >Feedback</a
+            >
+          </li>
+        </ul>
+        <button
+          class="rounded-md shadow bg-white padding-sm width-6"
+          id="contact-us"
+        >
+          Contact Us
+        </button>
+      </nav>
+    </header>
+    <!-- All section -->
+    <main class="margin-top-md">
+      <!-- section 1 -->
+      <section id="hero-section" class="width-90 margin-auto flex-between">
+        <!-- hero section navigation -->
+        <ul id="hero-nav" class="flex">
+          <li class="text-black padding-md">All</li>
+          <li class="text-black padding-md" id="latest">Latest</li>
+          <li class="text-black padding-md">Popular</li>
+        </ul>
+        <!-- hero content -->
+        <div class="flex flex-between width-100 rounded-md padding-lg">
+          <!-- left-side -->
+          <div class="flex-between width-50">
+            <div class="width-50">
+              <!-- horizontal card 1 -->
+              <div
+                class="flex-col shadow padding-md rounded-sm bg-white width-90 margin-top-lg"
+                id="#card1"
+              >
+                <img
+                  src="/images/profile1.jpg"
+                  alt=""
+                  class="circle width-20"
+                />
+                <div class="horizontal-card-info flex-between margin-top-md">
+                  <p class="text-lg font-bold">Keo KimLeang</p>
+                  <p class="text-lg font-bold">4.5</p>
+                </div>
+                <div class="flex-between margin-top-md">
+                  <p>Siem Reap</p>
+                  <p>
+                    <i class="fa fa-star text-yellow"></i>
+                    <i class="fa fa-star text-yellow"></i>
+                    <i class="fa fa-star text-yellow"></i>
+                    <i class="fa fa-star text-yellow"></i>
+                    <i class="fa fa-star-half-full text-yellow"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- vertical card 1 -->
+              <div
+                class="veritical-card bg-white width-70 shadow rounded-sm padding-md relative margin-top-md"
+                id="card1"
+              >
+                <div
+                  class="bg-white padding-sm rounded-sm vertical-card-info vertical-card-info width-80 absolute bg-transparent"
+                >
+                  <p>Sunset view</p>
+                  <br />
+                  <div class="flex-between">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-map-pin"
+                      >
+                        <path
+                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      USA
+                    </p>
+                    <p><i class="fa fa-star text-yellow"></i>(5.0)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="width-50">
+              <!-- vertical card 2 -->
+              <div
+                class="veritical-card bg-white width-70 shadow rounded-sm padding-md relative"
+                id="card2"
+              >
+                <div
+                  class="bg-white padding-sm rounded-sm vertical-card-info vertical-card-info width-80 absolute bg-transparent"
+                >
+                  <p>Beach view</p>
+                  <br />
+                  <div class="flex-between">
+                    <p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-map-pin"
+                      >
+                        <path
+                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      Philipine
+                    </p>
+                    <p><i class="fa fa-star text-yellow"></i>(4.0)</p>
+                  </div>
+                </div>
+              </div>
+              <!-- horizontal card 2 -->
+              <div
+                class="flex flex-between items-start shadow padding-md rounded-sm bg-white width-90 margin-top-md"
+              >
+                <img
+                  src="/images/nature2.jpeg"
+                  alt="nature2"
+                  class="card rounded-sm padding-xs shadow width-30"
+                />
+                <div class="flex-col width-60 relative">
+                  <p>Let's have a cup of coffee together</p>
+                  <div>
+                    <img
+                      src="/images/mountain1.jpg"
+                      alt="mountain1"
+                      class="mini-card width-40 card bg-white rounded-sm padding-xs shadow absolute"
+                    />
+                    <img
+                      src="/images/nature3.jpg"
+                      alt="mountain2"
+                      class="mini-card width-40 card bg-white rounded-sm padding-xs shadow absolute"
+                    />
+                    <img
+                      src="/images/sunset1.png"
+                      alt="sunset1"
+                      class="mini-card width-40 card bg-white rounded-sm padding-xs shadow absolute"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right-side -->
+          <div class="width-40" id="hero-text">
+            <h1>ife is short and the world is wide.</h1>
+            <p class="text-lg margin-top-xl">
+              To get the best of your adventure <br />
+              you just need to leave and <br />
+              go where you like.
+            </p>
+            <div class="margin-top-md">
+              <button
+                class="bg-white shadow rounded-md text-white explore-more margin-top-lg width-20"
+                id=""
+              >
+                Explore more
+              </button>
+              <button class="bg-white circle shadow" id="play-button">
+                <i class="fa fa-play text-center"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section
+        class="width-80 margin-auto flex-between margin-top-xl"
+        id="section2"
+      >
+        <!-- left side -->
+        <div class="width-40 margin-top-xl">
+          <h1>Explore wonderful places around the world with us</h1>
+          <p class="margin-top-lg">
+            Give yourself a chance to get out of your comfort zone; you will be
+            able to see how wide the word is and how beautiful it is.
+          </p>
+          <button
+            class="rounded-md shadow margin-top-md padding-sm text-center"
+          >
+            Explore more&nbsp; <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+        <!-- right size -->
+        <div class="width-50 flex relative">
+          <img
+            src="/images/camping1.jpg"
+            alt=""
+            class="absolute width-30 card padding-sm rounded-md shadow margin-sm"
+          />
+          <img
+            src="/images/camping2.jpg"
+            class="absolute width-30 card padding-sm rounded-md shadow margin-sm"
+          />
+          <img
+            src="/images/camping3.jpg"
+            alt=""
+            class="absolute width-30 card padding-sm rounded-md shadow margin-sm"
+          />
+        </div>
+      </section>
+      <!-- section 3 -->
+      <section class="margin-top-2xl" id="section3">
+        <!-- title -->
+        <h1 class="flex poppins-bold-lg">Travel to make sweet memories</h1>
+        <p class="flex">Find trips that fit a flexible lifestyle</p>
+        <!-- body content -->
+        <div class="width-60 margin-auto flex-between margin-top-lg">
+          <!-- left side -->
+          <div class="flex flex-col items-start" id="desc-list">
+            <div class="width-60">
+              <p
+                class="padding-xs bg-primary text-white rounded-xs text-center width-8"
+                id="number1"
+              >
+                01
+              </p>
+              <h5 class="margin-top-sm poppins-bold">
+                Find trips that fit your freedom
+              </h5>
+              <p class="margin-top-sm">
+                <span>
+                  Traveling offeres freedom and flexibility, solitude and</span
+                >
+                <span>spontaneity, and privacy and purpose.</span>
+              </p>
+            </div>
+            <div class="width-60">
+              <p
+                class="padding-xs bg-primary text-white rounded-xs text-center width-8"
+                id="number2"
+              >
+                02
+              </p>
+              <h5 class="margin-top-sm poppins-bold">
+                Get back to nature by travel
+              </h5>
+              <p class="margin-top-sm">
+                The world is a playground and you can finally explore Mother
+                Nature's irresistible canvas.
+              </p>
+            </div>
+            <div class="width-60">
+              <p
+                class="padding-xs bg-primary text-white rounded-xs text-center width-8"
+                id="number3"
+              >
+                03
+              </p>
+              <h5 class="margin-top-sm poppins-bold">
+                Regenite those travel tastebuds
+              </h5>
+              <p class="margin-top-sm">
+                There are infinite reasons to love travel, one of them being the
+                food, glorious food.
+              </p>
+            </div>
+          </div>
+          <!-- right size -->
+          <div class="relative">
+            <!-- person1 -->
+            <div
+              class="absolute info-card flex flex-between bg-transparent rounded-sm padding-sm"
+              id="info-card1"
+            >
+              <img src="/images/avatar1.jpg" alt="" class="circle width-30" />
+              <div class="width-60">
+                <p>Doung Jiva</p>
+                <p>💙💙</p>
+              </div>
+            </div>
+            <!-- person2 -->
+            <div
+              class="absolute info-card flex flex-between bg-transparent rounded-sm padding-sm"
+              id="info-card2"
+            >
+              <img src="/images/avatar2.jpg" alt="" class="circle width-30" />
+              <div class="width-60">
+                <p>Tep Apasara</p>
+                <p>💙</p>
+              </div>
+            </div>
+            <!-- person3 -->
+            <div
+              class="absolute info-card flex flex-between bg-transparent rounded-sm padding-sm"
+              id="info-card3"
+            >
+              <img src="/images/avatar3.webp" alt="" class="circle width-30" />
+              <div class="width-60">
+                <p>Chhaya Leak</p>
+                <p>💙💙💙</p>
+              </div>
+            </div>
+            <img
+              id="main-img"
+              src="/images/mountain.jpg"
+              alt=""
+              class="rounded-sm"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="width-100 padding-md margin-top-xl">
+      <p class="width-100 text-center">&#169;Copyright 2025 | KHSRD Web team</p>
+    </footer>
+    <!-- floating button -->
+    <a href="#">
+      <i class="fa fa-arrow-up bg-white" id="floating-button"></i>
+    </a>
+  </body>
+</html>

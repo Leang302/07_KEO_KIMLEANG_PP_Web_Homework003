@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+.poppins-bold-lg {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  padding: 12px 20px;
+}
+img {
+  object-fit: cover;
+}
+/* utility */
+.sticky {
+  position: sticky;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.items-start {
+  align-items: start;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.font-bold {
+  font-weight: bold;
+}
+.text-center {
+  text-align: center;
+}
+.text-black {
+  color: black;
+}
+.text-white {
+  color: white;
+}
+.text-lg {
+  font-size: 18px;
+}
+.text-yellow {
+  color: rgb(255, 196, 0);
+}
+.shadow {
+  box-shadow: 4px 5px 6px rgba(92, 93, 94, 0.2);
+}
+.rounded-xs {
+  border-radius: 8px;
+}
+.rounded-sm {
+  border-radius: 16px;
+}
+.rounded-md {
+  border-radius: 24px;
+}
+.padding-xs {
+  padding: 2px;
+}
+.padding-sm {
+  padding: 10px;
+}
+.padding-md {
+  padding: 20px;
+}
+.padding-lg {
+  padding: 46px;
+}
+.margin-sm {
+  margin: 8px;
+}
+.margin-auto {
+  margin: auto;
+}
+.margin-top-sm {
+  margin-top: 10px;
+}
+.margin-top-md {
+  margin-top: 16px;
+}
+.margin-top-lg {
+  margin-top: 34px;
+}
+.margin-top-xl {
+  margin-top: 56px;
+}
+.margin-top-2xl {
+  margin-top: 112px;
+}
+.width-5 {
+  width: 5%;
+}
+.width-6 {
+  width: 6%;
+}
+.width-8 {
+  width: 8%;
+}
+.width-10 {
+  width: 10%;
+}
+.width-20 {
+  width: 20%;
+}
+.width-30 {
+  width: 30%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-90 {
+  width: 90%;
+}
+.width-100 {
+  width: 100%;
+}
+.bg-primary {
+  background-color: #00bdaa;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-transparent {
+  background-color: #ffffff9f;
+}
+.circle {
+  border-radius: 50%;
+}
+/* header */
+header {
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.815);
+}
+#logo {
+  font-size: 22px;
+}
+nav li + li:before {
+  content: " | ";
+  font-weight: lighter;
+  color: black;
+  margin: 0 20px;
+}
+a:visited {
+  color: #00bdaa;
+}
+
+#contact-us:hover {
+  background-color: #00bdaa;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+#contact-us:focus {
+  overflow: hidden;
+  border: 1px solid #00bdaa;
+}
+/* hero section */
+#hero-section > div {
+  background-color: rgba(223, 223, 223, 0.37);
+}
+#hero-nav {
+  transform: rotate(-90deg);
+  width: 3%;
+}
+#latest {
+  text-decoration: underline;
+  text-decoration-color: #00bdaa;
+  text-underline-offset: 5px;
+}
+#card1 {
+  height: 400px;
+  background-image: url("/images/beach1.jpg");
+  background-size: cover;
+}
+#card2 {
+  height: 400px;
+  background-image: url("/images/beach2.jpg");
+  background-size: cover;
+}
+.vertical-card-info {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+#hero-text h1 {
+  font-size: 68px;
+  line-height: 1;
+}
+#hero-text h1::before {
+  content: "L";
+  color: #00bdaa;
+  font-size: 120px;
+}
+.explore-more {
+  background-color: #00bdaa;
+}
+#play-button {
+  margin-left: 16px;
+  width: 42px;
+  padding: 12px 16px;
+  color: #00bdaa;
+  border: 1px solid transparent;
+}
+#play-button:hover {
+  border-color: #00bdaa;
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.205);
+}
+.mini-card {
+  height: 110px;
+}
+img[alt="nature2"] {
+  height: 160px;
+  width: 110px;
+}
+img[alt="mountain1"] {
+  height: 110px;
+  left: 0px;
+}
+img[alt="mountain2"] {
+  height: 110px;
+  left: 45px;
+}
+img[alt="sunset1"] {
+  height: 110px;
+  left: 90px;
+}
+
+/* section 2 */
+#section2 h1 {
+  font-size: 38px;
+  line-height: 1.5;
+}
+#section2 button {
+  width: 160px;
+  background-color: transparent;
+  color: #00bdaa;
+  border: 1px solid #00bdaa;
+
+  display: block;
+  text-decoration: none;
+}
+#section2 button:hover:active {
+  border-color: orange;
+  background-color: orange;
+  transition: 0.5s;
+}
+#section2 button:hover {
+  background-color: #00bdaa;
+  border-color: #00bdaa;
+  color: white;
+  transition: 0.5s;
+}
+#section2 button:focus {
+  border-color: orange;
+  background-color: orange;
+  color: white;
+  transition: 0.5s;
+}
+#section2 button:active {
+  border-color: orange;
+  background-color: orange;
+  transition: 0.5s;
+}
+#section2 div img {
+  height: 340px;
+  transition: 1s;
+}
+#section2 div img:nth-child(1) {
+  left: 0;
+}
+#section2 div img:nth-child(2) {
+  left: 33%;
+  top: 14%;
+}
+#section2 div img:nth-child(3) {
+  left: 66%;
+  top: 2px;
+}
+#section2 button:hover {
+  background-color: #00bdaa;
+  color: white;
+}
+#section2 img:hover {
+  scale: 1.1;
+}
+/* section 3 */
+#desc-list {
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+img#main-img {
+  width: 350px;
+  height: 540px;
+}
+.info-card {
+  width: 200px;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#info-card1 {
+  top: 40px;
+  left: -50px;
+}
+#info-card2 {
+  top: 190px;
+  right: -100px;
+}
+#info-card3 {
+  top: 360px;
+  left: -30px;
+}
+p#number1 {
+  background-color: #018d8d;
+}
+p#number2 {
+  background-color: #66b2b2;
+}
+p#number3 {
+  background-color: #00bdaa;
+}
+/* footer */
+footer {
+  background-color: rgba(155, 155, 155, 0.171);
+}
+/* floating button */
+#floating-button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: block;
+  color: #00bdaa;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  padding: 20px;
+  size: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+}
